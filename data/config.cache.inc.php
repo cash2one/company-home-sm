@@ -1,7 +1,7 @@
 <?php
 $cfg_disable_funs = 'phpinfo,eval,exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source,file_put_contents';
 $cfg_disable_tags = 'php';
-$cfg_basehost = 'http://suimeikeji.com';
+$cfg_basehost = 'http://www.suimeikeji.com';
 $cfg_cmspath = '';
 $cfg_cookie_encode = 'WoYGDc46YyYCiqQeS4l33EasoSXX4d';
 $cfg_indexurl = '/';
@@ -101,8 +101,8 @@ $cfg_upload_switch = 'Y';
 $cfg_allsearch_limit = '1';
 $cfg_rewrite = 'N';
 $cfg_delete = 'Y';
-$cfg_keywords = '';
-$cfg_description = '';
+$cfg_keywords = '上海岁梅信息科技有限公司, 上海岁梅科技, 上海岁梅, 岁梅科技, 岁梅信息, 岁梅信息科技';
+$cfg_description = '上海岁梅信息科技有限公司提供优质的智能家居，智慧农业，各种信息系系统，门禁系统，点餐系统，收银系统，公众号，小程序，电商系统等开发';
 $cfg_beian = '沪ICP备17044060号-1';
 $cfg_need_typeid2 = 'Y';
 $cfg_cache_type = 'id';

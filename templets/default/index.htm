@@ -6,8 +6,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <meta name="format-detection" content="telephone=no" />
 <title>{dede:global.cfg_webname/}</title>
+  <link rel="shortcut icon" type="image/x-icon" href="/skin/images/favicon.ico" media="screen" />
 <meta name="description" content="{dede:global.cfg_description/}" />
-<meta name="author" content="design by www.dede58.com" />
 <meta name="keywords" content="{dede:global.cfg_keywords/}" />
 <link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
 <link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
@@ -74,9 +74,6 @@
       </ul>
       <img class="wapNavPointer" src="/skin/images/wapnavpointer.jpg" /> </li>
     {/dede:channelartlist}
-    <li class="child navChildLanguage"> <a href="#">
-      <div class="language">English</div>
-      </a> </li>
     <li class="child navChildSearch" style="line-height:px;"> <img   style="margin-top: 53px;" class="seachIcon" src="/skin/images/seachicon.png" /> </li>
   </ul>
   <!-- searchContent -->
@@ -158,7 +155,7 @@
   <div class="container">
     <div class="left"><img src="/skin/images/gs.jpg" /></div>
     <div class="right">
-      <p class="title">欢迎来到织梦58</p>
+      <p class="title">欢迎来到上海岁梅信息科技</p>
       <p class="info">{dede:sql sql='Select content from dede_arctype where id=1'} 
         [field:content  function='cn_substr(html2text(@me),700)'/]
         {/dede:sql}</p>
@@ -169,21 +166,21 @@
 </div>
 <!-- about over --> 
 <!-- news -->
-<div class="news">
-  <div class="mainTitle">新闻资讯</div>
-  <div class="container">
-    <div class="contents">
-      <div class="content"> {dede:arclist row=18 titlelen=32 infolen='80' typeid='20'} <a href="[field:arcurl/]">
-        <div class="child">
-          <div class="childImg"><img src="[field:picname/]" /></div>
-          <p class="childTitle">[field:title/]</p>
-          <p class="childTime">[field:pubdate function="MyDate('Y-m-d',@me)"/]</p>
-          <p class="childInfo">[field:info/]...</p>
-        </div>
-        </a> {/dede:arclist} </div>
-    </div>
-    <img class="leftBtn navBtn" onClick="newsBtnClick('-')" src="/skin/images/newsleft.png" /> <img class="rightBtn navBtn" onClick="newsBtnClick('+')" src="/skin/images/newsright.png" /> </div>
-</div>
+<!--<div class="news">-->
+  <!--<div class="mainTitle">新闻资讯</div>-->
+  <!--<div class="container">-->
+    <!--<div class="contents">-->
+      <!--<div class="content"> {dede:arclist row=18 titlelen=32 infolen='80' typeid='20'} <a href="[field:arcurl/]">-->
+        <!--<div class="child">-->
+          <!--<div class="childImg"><img src="[field:picname/]" /></div>-->
+          <!--<p class="childTitle">[field:title/]</p>-->
+          <!--<p class="childTime">[field:pubdate function="MyDate('Y-m-d',@me)"/]</p>-->
+          <!--<p class="childInfo">[field:info/]...</p>-->
+        <!--</div>-->
+        <!--</a> {/dede:arclist} </div>-->
+    <!--</div>-->
+    <!--<img class="leftBtn navBtn" onClick="newsBtnClick('-')" src="/skin/images/newsleft.png" /> <img class="rightBtn navBtn" onClick="newsBtnClick('+')" src="/skin/images/newsright.png" /> </div>-->
+<!--</div>-->
 <!-- news over --> 
 <!-- other -->
 <div class="other">

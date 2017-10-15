@@ -3,11 +3,11 @@
 //以下为手工指定的混淆串
 //----------------------------
 #start#
-#,织梦好，好织梦
-#,本文来自织梦
-#,织梦内容管理系统
-#,dedecms.com
-#,copyright dedecms
-#,内容来自dedecms
+#,岁梅科技，科技信息
+#,本文来自岁梅科技
+#,官网系统
+#,suimeikeji.com
+#,copyright suimeikeji
+#,内容来自岁梅科技
 #end#
 ?>

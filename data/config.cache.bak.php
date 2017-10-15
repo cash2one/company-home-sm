@@ -1,5 +1,5 @@
 <?php
-$cfg_basehost = 'http://suimeikeji.com';
+$cfg_basehost = 'http://www.suimeikeji.com';
 $cfg_cmspath = '';
 $cfg_cookie_encode = 'WoYGDc46YyYCiqQeS4l33EasoSXX4d';
 $cfg_indexurl = '/';
@@ -26,7 +26,7 @@ $cfg_fck_xhtml = 'N';
 $cfg_df_style = 'default';
 $cfg_multi_site = 'N';
 $cfg_dede_log = 'N';
-$cfg_powerby = 'Copyright &copy; 2004-2011 DEDECMS. 织梦科技 版权所有';
+$cfg_powerby = 'Copyright &copy; 上海岁梅信息科技有限公司';
 $cfg_arcsptitle = 'N';
 $cfg_arcautosp = 'N';
 $cfg_arcautosp_size = 5;
@@ -89,9 +89,9 @@ $cfg_search_time = 3;
 $cfg_baidunews_limit = '100';
 $cfg_updateperi = '15';
 $cfg_sendmail_bysmtp = 'Y';
-$cfg_smtp_server = 'smtp.qq.com';
+$cfg_smtp_server = 'smtp.qiye163.com';
 $cfg_smtp_port = '25';
-$cfg_smtp_usermail = 'desdev@vip.qq.com';
+$cfg_smtp_usermail = 'market@suimeikeji.com';
 $cfg_smtp_user = 'desdev';
 $cfg_smtp_password = 'desdev';
 $cfg_online_type = 'nps';
