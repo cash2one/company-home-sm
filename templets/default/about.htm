@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="/skin/css/base.css" />
+<link rel="stylesheet" type="text/css" href="/skin/css/indexbanner.css" />
+</head>
+<body >
+<!-- header --> 
+{dede:include filename="head.htm"/} 
+<!-- header over -->
+</div>
+<!-- wap over -->
+</div>
+<!-- header over -->
+<link rel="stylesheet" type="text/css" href="/skin/css/about.css" />
+<!-- crumbs -->
+<div class="crumbs">
+  <div class="container">
+    <p class="title">{dede:field name='typename'/}</p>
+    <div class="childs"> <a href="/">首页</a><span>/</span><a>{dede:field name='typename'/}</a> </div>
+  </div>
+</div>
+<!-- crumbs over --> 
+<!-- main -->
+<div class="main">
+  <div class="container">
+    <div class="maxTitle"> <span class="title">{dede:field name='typename'/}</span>
+      <div class="sub"></div>
+    </div>
+    {dede:field.content/}
+    <div class="content"> 
+      <!-- left -->
+      <div class="left">
+        <div class="contentTitle"> <span class="title">我们提供多种有线/无线的解决方案：</span>
+          <div class="sub"></div>
+        </div>
+        <ul>
+          <li>Buspro住宅与楼宇智能控制系统</li>
+          <li>KNX住宅与楼宇智能控制系统</li>
+          <li>Buspro Wireless无线智能家居解决方案</li>
+        </ul>
+        <p class="info">HDL是一家重视环境保护与可持续发展的企业。所以我们在生产上述的产品系列时，在充分考虑&ldquo;节约能源&rdquo;的前提下，确保了用户&ldquo;便利、舒适、安全&rdquo;的体验感。</p>
+        <div class="contentTitle"> <span class="title">我们承诺：</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">出品均为优质，真诚地对待每一位客户。我们倾听客户的声音，全力满足客户需求，协助他们攻破难题。这一承诺不仅对我们的客户有效，建筑师、设计师、分销商、供应商、员工，以及我们工作和生活的社区也是我们的承诺对象。我们提供：</p>
+        <ul>
+          <li>高级定制的解决方案</li>
+          <li>丰富完善的产品线</li>
+          <li>深钻多年的专业技术</li>
+          <li>毫不妥协的执行标准</li>
+        </ul>
+        <div class="contentTitle"> <span class="title">客户关怀</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">我们致力于关怀每一位客户的需求。我们严格执行《客户服务规定》，在服务的每一个过程中，都让您拥有愉悦的心情。如果您有任何问题或者需要我们的帮助，请联系我们的客服团队。我们努力达成：</p>
+        <ul>
+          <li>高效；</li>
+          <li>坦诚、公平、礼貌；</li>
+          <li>耐心倾听、快速响应；</li>
+          <li>提升团队的专业知识与技能。</li>
+        </ul>
+        <div class="contentTitle"> <span class="title">质量保证</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">对优质的不断追求是HDL的企业精神。我们的《质量监控政策》不仅让产品达到标准，而且超乎您的期待。</p>
+        <ul>
+          <li>《质量监控政策》的4大核心：</li>
+          <li>严格的质量管理与审计程序</li>
+          <li>热情、及时的客户反馈</li>
+          <li>产品改良制度</li>
+        </ul>
+        <div class="contentTitle"> <span class="title">环保责任</span>
+          <div class="sub"></div>
+        </div>
+        <p class="info">HDL是一家重视环境保护与可持续发展的企业。我们的产品和系统都具备环保节能与可持续发展特征，同时我们深知担任着重要的环境保护者的责任。</p>
+      </div>
+      <!-- left over --> 
+      <!-- right -->
+      <div class="right">
+        <div class="contentTitle"> <span class="title">联系我们</span>
+          <div class="sub"></div>
+        </div>
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <p class="lineTitle">您的名字（必填）</p>
+          <div class="line">
+            <input type="text" name="name" class="inputText" />
+          </div>
+          <p class="lineTitle">您的邮箱（必填）</p>
+          <div class="line">
+            <input type="text" name="email" class="inputText" />
+          </div>
+          <p class="lineTitle">标题</p>
+          <div class="line">
+            <input type="text" name="bt" class="inputText" />
+          </div>
+          <p class="lineTitle">内容</p>
+          <div class="line">
+            <textarea name="nr" class="textArea"></textarea>
+          </div>
+          <input type="hidden" name="dede_fields" value="name,text;email,text;bt,text;nr,text" />
+          <input type="hidden" name="dede_fieldshash" value="f34de0eba88646549ae2f733b3d2d519" />
+          <p class="top15 captcha" id="captcha-container" style="  position: relative;padding-top: 25px;">
+            <input name="vdcode"  id="vdcode" width="50%" height="35" class="captcha-text" placeholder="请输右边入验证码(点击图片可刷新)" type="text" style="height:35px ;width:30%; border: 1px solid #ddd;margin-right: 20px;">
+            <img id="vdimgck" align="absmiddle" onclick="this.src=this.src+'?'"  width="30%" class="left15" height="60" alt="验证码" src="/include/vdimgck.php" title="点击刷新" style="border: 1px solid #ddd;  position:absolute;"> </p>
+          <div class="line">
+            <input type="submit" class="inputSub" value="发送" />
+          </div>
+        </form>
+      </div>
+      <!-- right over --> 
+    </div>
+    <script type="text/javascript" language="javascript">
+	//验证码 function changeAuthCode(){var num =newDate().getTime();varrand= Math.round(Math.random()*10000);    num = num +rand;$('#ver_code').css('visibility','visible');if($("#vdimgck")[0]){$("#vdimgck")[0].src ="../include/vdimgck.php?tag="+ num;}returnfalse;}</script> 
+    <!-- customer -->
+    <div class="customer">
+      <p class="title">下面看看我们的客户评价：</p>
+      <div class="customerContent">
+        <div class="contents">
+          <div class="child">
+            <div class="childContent">
+              <p>广东省科技攻关项目（大型场馆数字网络声像智能控制与科学管理系统）的研究成果已由广州市河东电子有限公司（HDL）产业化并应用到我院的66个课室和电教室的电气控制系统中，该系统主要是对灯光、空调、电风扇及电教设备进行智能节能人性化的集中控制，系统使用两年无异常，经过检测和计量，系统使用后为我院节省了百分之三十以上的电能源，是一项低碳工程。</p>
+              <img class="pointer" src="/skin/images/pointer.png" /> </div>
+            <div class="childFoot">
+              <div class="childIcon"><img src="/skin/images/558bb5f1e2e7f.png" /></div>
+              <div class="childInfo">
+                <p class="childTitle">广东女子职业技术学院</p>
+                <p class="childEn">2010年4月13日</p>
+              </div>
+            </div>
+          </div>
+          <div class="child">
+            <div class="childContent">
+              <p>我们安装了包括智能客房系统在内的整套HDL智能酒店解决方案，系统已经无故障地运行了2年之久。HDL的供货速度快、产品优质、安装简单、后续维护成本低，并且服务高效、反馈速度快。我们非常感谢HDL并且向大家强烈推荐！</p>
+              <img class="pointer" src="/skin/images/pointer.png" /> </div>
+            <div class="childFoot">
+              <div class="childIcon"><img src="/skin/images/558bb63542ea0.png" /></div>
+              <div class="childInfo">
+                <p class="childTitle">印度丽笙蓝标酒店</p>
+                <p class="childEn">（Radisson Blu） Ravi Kant Doonga</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="customerBtn leftBtn" onClick="customerBtnClick('-')" src="/skin/images/left.png" /> <img class="customerBtn rightBtn" onClick="customerBtnClick('+')" src="/skin/images/right.png" /> </div>
+    <!-- customer over --> 
+    <!-- customerLogo -->
+    <div class="customerLogo">
+      <p class="title">目前正在使用我们产品的客户：</p>
+      <div class="customerLogoContent">
+        <div class="contents"> <a href="#">
+          <div class="child"><img src="/skin/images/5593835d95527.png" /></div>
+          </a><a href="#">
+          <div class="child"><img src="/skin/images/559384164d623.png" /></div>
+          </a><a href="#">
+          <div class="child"><img src="/skin/images/559386716b58d.png" /></div>
+          </a><a href="#">
+          <div class="child"><img src="/skin/images/559386ee876eb.png" /></div>
+          </a><a href="#">
+          <div class="child"><img src="/skin/images/559387763b60f.png" /></div>
+          </a> </div>
+      </div>
+      <img class="logoBtn leftBtn" onclick="customerLogoBtnClick('-')" src="/skin/images/logoleft.png" /> <img class="logoBtn rightBtn" onclick="customerLogoBtnClick('+')" src="/skin/images/logoright.png" /> </div>
+    <!-- customerLogo over --> 
+  </div>
+</div>
+<!-- main over --> 
+<!-- footer --> 
+{dede:include filename="footer.htm"/} 
+<!-- footer over --> 
+<!-- js --> 
+<script src="/skin/js/jquery-1.11.0.min.js"></script> 
+<script src="/skin/js/base.js"></script> 
+<script src="/skin/js/index.js"></script> 
+<script src="/skin/js/indexnews.js"></script> 
+<script src="/skin/js/indexbanner.js"></script> 
+
+<!-- js over -->
+</body>
+</html>
+<script>
+	$(function(){
+		$("#btn").click(function(){
+			$("#post_1").submit();
+		});
+
+	
+		$("#btn_2").click(function(){
+			$("#post_2").submit();
+		});
+		$("#btn_3").click(function(){
+			$("#post_3").submit();
+		});
+	});
+
+
+
+</script>
+<script src="/skin/js/about.js"></script>
+<script src="/skin/js/aboutcustomer.js"></script>
+<script src="/skin/js/aboutcustomerlogo.js"></script>
+<script src="/skin/js/jquery.validate.js"></script>
+<script src="/skin/js/app.validate.js"></script>
